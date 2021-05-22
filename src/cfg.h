@@ -28,7 +28,7 @@
 #define CFG_LINE_LEN(x) (SRVBUFLEN-strlen(x))
 #define MAX_CUSTOM_PRIMITIVES		64
 #define MAX_CUSTOM_PRIMITIVE_NAMELEN	64
-#define MAX_CUSTOM_PRIMITIVE_PD_PTRS	8
+#define MAX_CUSTOM_PRIMITIVE_PD_PTRS	16
 
 /* structures */
 struct _dictionary_line {
